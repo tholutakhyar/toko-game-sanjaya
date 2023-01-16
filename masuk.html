@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk - 三茶屋</title>
+    <link rel="stylesheet" href="asset/css/main.css">
+</head>
+<body>
+    <div class="main-container">
+        <table class="menu">
+            <tr>
+                <td colspan="5">
+                    <div class="menu__brand">
+                        <div class="menu__brand__text">
+                            三茶屋
+                            <span>Nikmati Game Kesayangan Anda ! :)</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="menu__list">
+                <td>
+                    <a href="index.html">Beranda</a>
+                </td>
+                <td>
+                    <a href="produk.html">Produk</a>
+                </td>
+                <td>
+                    <a href="tentang_kami.html">Tentang Kami</a>
+                </td>
+                <td>
+                    <a href="kontak.html">Kontak</a>
+                </td>
+                <td>
+                    <a class="selected" href="masuk.html">Masuk</a>
+                </td>
+            </tr>
+        </table>
+
+        <div class="content-flex">
+            <form class="item-flex-1" action="" method="GET">
+                <table style="width: 95%;">
+                    <tr>
+                        <td>
+                            <h1>Masuk</h1>
+                            <p>Masuk, Agar bisa melihat Daftar Transaksi anda!</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <span>Username/Email</span>
+                                <input name="username" type="text" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <span>Password</span>
+                                <input name="password" type="password" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <input type="submit" name="masuk" value="Masuk">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <form class="item-flex-1" action="" method="GET">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>
+                            <h1>Daftar</h1>
+                            <p>Tidak punya Akun? Jangan Kawatir Daftar saja kawan :D!</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <span>Username</span>
+                                <input name="username" pattern="[A-Za-z].{2,}" title="Hanya bisa diisi huruf saja dan minimal 3 karakter" type="text" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <span>Email</span>
+                                <input name="email" type="email" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <span>Password</span>
+                                <input name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Harus terdapat setidaknya satu angka dan satu huruf besar dan huruf kecil, dan terdapat 8 huruf atau lebih" type="password" required>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="form-tholut">
+                                <input type="submit" name="daftar" value="Daftar">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <table class="footer">
+            <tr class="footer__top">
+                <td class="footer__top__info">
+                    <div>
+                        <h2>三茶屋</h2>
+                        <p>Toko Game Sanjaya</p>
+                        <p>Jl. Raya Tlogomas No. XX, Lowokwaru, Tlogomas<br/> Malang, Indonesia 65144</p>
+                        <a href="kredit.html">Kredit Untuk Website Ini</a>
+                    </div>
+                </td>
+                <td class="footer__top__map">
+                    <div>
+                        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=112.59113609790802%2C-7.9252371872635905%2C112.60009467601778%2C-7.920380910688875&amp;layer=mapnik"></iframe>
+                    </div>
+                </td>
+            </tr>
+            <tr class="footer__bottom">
+                <td class="footer__bottom__copyright" colspan="2">
+                    <div>
+                        Copyrights &copy 1990 Toko Game Sanjaya, Created by Tholut A with Love &lt;3
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
