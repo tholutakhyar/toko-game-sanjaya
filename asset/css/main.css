@@ -199,3 +199,18 @@ a.amazing-link:hover {
     background: var(--color-three);
     color: var(--color-two);
 }
+
+.content a,
+.content a:link,
+.content a:visited,
+.content a:hover {
+    color: var(--color-four);
+    font-style: italic;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.content a:hover {
+    font-style: normal;
+    text-decoration: underline;
+}
