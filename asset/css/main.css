@@ -29,6 +29,11 @@ body {
 a.custom-card,
 a.custom-card:hover {
   color: inherit;
+  text-decoration: none;
+}
+
+a.custom-card:hover .card {
+    box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .bc-sanjaya-1 {
@@ -98,4 +103,42 @@ a.custom-card:hover {
 
 .section-content {
     padding: 120px 0;
+}
+
+a.amazing-link {
+    text-decoration: none;
+    color: var(--color-one);
+    font-style: italic;
+    transition: .5s all;
+    position: relative;
+}
+
+a.amazing-link:after {
+    transition: .5s all;
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: var(--color-three);
+    left: 0;
+    bottom: -2px;
+}
+
+a.amazing-link:hover:after {
+    width: 100%;
+}
+
+a.amazing-link:hover {
+    letter-spacing: 2px;
+}
+
+.btn-sanjaya,
+.btn-sanjaya:active {
+    background: var(--color-four) !important;
+    border-color: var(--color-four) !important;
+}
+
+.btn-sanjaya:hover {
+    border-color: var(--color-three) !important;
+    background: var(--color-three) !important;
 }
