@@ -102,7 +102,7 @@ a.custom-card:hover .card {
 }
 
 .section-content {
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 a.amazing-link {
@@ -141,4 +141,13 @@ a.amazing-link:hover {
 .btn-sanjaya:hover {
     border-color: var(--color-three) !important;
     background: var(--color-three) !important;
+}
+
+.dark-effect {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
