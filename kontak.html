@@ -65,54 +65,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <form class="item-flex-1" action="" method="GET">
-                        <table class="w-100">
-                            <tr>
-                                <td colspan="2">
-                                    
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="form-tholut">
-                                        <span>Nama</span>
-                                        <input name="nama" type="text">
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-tholut">
-                                        <span>Email</span>
-                                        <input name="email" type="email" required>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <div class="form-tholut">
-                                        <span>Subject</span>
-                                        <input name="subject" type="text" required>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <div class="form-tholut">
-                                        <span>Pesan</span>
-                                        <textarea name="pesan" required>
-
-                                        </textarea>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <div class="form-tholut">
-                                        <input type="submit" name="kirim_pesan" value="Kirim Pesan">
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
+                    <table class="w-100">
+                        <tr>
+                            <td colspan="2">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-tholut">
+                                    <span>Nama</span>
+                                    <input name="nama" id="nama-pesan" type="text">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-tholut">
+                                    <span>Email</span>
+                                    <input name="email" id="email-pesan" type="email">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="form-tholut">
+                                    <span>Subject</span>
+                                    <input name="subject" id="subject-pesan" type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="form-tholut">
+                                    <span>Pesan</span>
+                                    <textarea name="pesan" id="pesan-pesan"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="form-tholut">
+                                    <input onclick="return tekanKirimPesan();" type="submit" name="kirim_pesan" value="Kirim Pesan">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="col-md-5">
                     <img class="w-100 mb-5" src="asset/img/stuff/call.gif">
@@ -155,6 +151,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="asset/js/main.js"></script>
 </body>
 
 </html>
