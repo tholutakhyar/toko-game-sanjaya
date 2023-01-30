@@ -151,3 +151,51 @@ a.amazing-link:hover {
     top: 0;
     left: 0;
 }
+
+.form-tholut {
+    margin-bottom: 5px;
+}
+
+.form-tholut span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-style: italic;
+}
+
+.form-tholut input[type=text],
+.form-tholut input[type=email],
+.form-tholut input[type=password],
+.form-tholut textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background: var(--color-three);
+    border: 1px solid var(--color-four);
+    color: var(--color-one);
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.form-tholut input[type=submit] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 0;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid var(--color-four);
+    background: var(--color-four);
+    color: var(--color-two);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    transition: .3s all;
+}
+
+.form-tholut input[type=submit]:hover {
+    border-color: var(--color-three);
+    background: var(--color-three);
+    color: var(--color-two);
+}
